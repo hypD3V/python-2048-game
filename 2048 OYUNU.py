@@ -1,8 +1,12 @@
-﻿import random
+import random
+import os
 
+def cls():
+    os.system('cls' if os.name=='nt' else 'clear')
 
-print("\nMerhaba! Python İle Yaptığım 2048 Oyununa Hoşgeldin.")
-print("Nasıl Oynayacağını Sana Oyun İçinde Anlattım. İyi Oyunlar.\n")
+cls()
+print("\nMerhaba! Oyunuma hoşgeldin! oyunumda herhangi bir bug/hata bulursan bana discord üzerinden ulaşabilirsin  hyp#1000 \n")
+print("Nasıl Oynayacağını Sana Anlattım. İyi Oyunlar.\n")
 
 # Create the game grid
 # The game should work for square grid of any size though
@@ -26,11 +30,13 @@ for i in range(len(grid)):
 loseStatus = 0
 totalScore = 0 # Score of the user
 while True:
-    tmp = input("\nSol için L'ye, sağ için R'ye, üst için T'ye, alt için B'ye Basın.\n X'e Basarak Oyunu Bitirebilirsin.\n")
+    tmp = input("\n Sol için L'ye, sağ için R'ye, üst için T'ye, alt için B'ye Basın.\n X'e Basarak Python'u Kapatır Aynı Zamanda Oyunu Bitirirsin.\n" ) 
     if tmp in ["R", "r", "L", "l", "T", "t", "B", "b", "X", "x"]:
+        cls()
         dir = direction[tmp.upper()]
         if dir == 4:
             print("\nFinal Skoru: " + str(totalScore))
+            input("Oyunu bitirmek için entera basınız.")
             break
         else:
             for i in range(dir): grid = list(map(list, zip(*grid[::-1])))
@@ -84,6 +90,7 @@ while True:
             if loseStatus:
                 print("\nOyun Bitti!")
                 print("Final Skoru: " + str(totalScore))
+                input("Oyunu bitirmek için entera basınız.")
                 break
             print("\nŞuanki skor: " + str(totalScore))
     else:
