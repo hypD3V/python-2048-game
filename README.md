@@ -1,4 +1,6 @@
 # PYTHON İle yazdığım 2048 Oyunu
 
-`oyunu nasıl oynayacağınızı anlattım keyifli oynayışlar.`
-**discord**: `hyp#1000`
+Sorunlar İçin.
+
+**https://www.instagram.com/hypD3V**
+**https://discord.com/users/833641129877569557**
