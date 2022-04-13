@@ -14,4 +14,4 @@ Bana yardım ettiği için teşekkürler
 
 
 
-Bu kod **MIT License** lisanslandırılmıştır. Çalınması değiştirilmesi tamamen yasaktır.
+**MIT License** 
