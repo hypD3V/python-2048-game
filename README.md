@@ -6,8 +6,9 @@ Sorunlar İçin.
 `X`
 **https://discord.com/users/833641129877569557**
 
-Bana yardım ettiği için teşekkürler
-https://www.instagram.com/orknbtw/
+Bana yardım ettiği için teşekkürler.
+
+**https://www.instagram.com/orknbtw/**
 `X`
 **https://discord.com/users/920360120469311578**
 
